@@ -99,6 +99,7 @@ function init() {
 			alert(error)
 		})
 	}
+	if (location.search.includes('wifi')) document.querySelector('#url').value = 'WIFI:T:WPA;S:__NOMEWIFI__;P:__SENHA__;;'
 }
 
 if (/ios|iphone/i.test(navigator.userAgent)) {
